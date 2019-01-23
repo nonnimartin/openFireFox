@@ -43,7 +43,7 @@ def main():
 
 	html    = getHtml(target)
 	soup    = getBsObject(html)
-	hrefs soup.find_all('a')
+	hrefs   = soup.find_all('a')
 
 	
 	# while True:
